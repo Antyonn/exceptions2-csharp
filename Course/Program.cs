@@ -11,7 +11,7 @@ public class ProcessFile
         Console.Write("Number: ");
         int number = int.Parse(Console.ReadLine());
         Console.Write("Holder: ");
-        String holder = Console.ReadLine();
+        string holder = Console.ReadLine();
         Console.Write("Initial balance: ");
         double balance = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         Console.Write("Withdraw limit: ");
